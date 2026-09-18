@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#050505" />
+  <title>BC Boutiquecuen | Ropa de Caballero</title>
+  <meta name="description" content="BC Boutiquecuen — moda urbana para caballero, tenis, playeras, gorras y accesorios en Mexicali." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="topbar"><span>ESTILO QUE TE DEFINE</span><span>✦ ENVÍOS A TODO MÉXICO</span></div>
+
+  <header class="nav" id="top">
+    <a class="brand" href="#top" aria-label="Inicio">
+      <img src="assets/logo.jpg" alt="BC Boutiquecuen" />
+    </a>
+    <button class="menu-btn" aria-label="Abrir menú" id="menuBtn">☰</button>
+    <nav id="menu">
+      <a href="#inicio">Inicio</a>
+      <a href="#categorias">Categorías</a>
+      <a href="#productos">Productos</a>
+      <a href="#promo">Promoción</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="nav-cta" href="https://wa.me/526862271780" target="_blank" rel="noreferrer">WhatsApp</a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow">MODA URBANA • CABALLERO</span>
+        <h1>BC<br><strong>BOUTIQUECUEN</strong></h1>
+        <p>Tenis, playeras, gorras y accesorios para armar un outfit completo con presencia.</p>
+        <div class="hero-actions">
+          <a href="#productos" class="btn primary">Ver colección <span>→</span></a>
+          <a href="https://wa.me/526862271780" target="_blank" rel="noreferrer" class="btn ghost">Comprar por WhatsApp</a>
+        </div>
+        <div class="benefits">
+          <span>🚚 Envíos a todo México</span>
+          <span>✦ Atención personalizada</span>
+          <span>⌁ Tienda física</span>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img class="store" src="assets/storefront.jpg" alt="Fachada BC Boutiquecuen" />
+        <div class="hero-product-card">
+          <img src="assets/shoe-black.jpg" alt="Tenis negros" />
+          <span>DROP 01</span>
+        </div>
+        <div class="hero-stamp">ESTILO<br>CALIDAD<br>ACTITUD</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Categorías destacadas">
+      <div>BC BOUTIQUECUEN ✦ TENIS ✦ GORRAS ✦ PLAYERAS ✦ CINTOS ✦ OUTFITS ✦</div>
+    </section>
+
+    <section class="section" id="categorias">
+      <div class="section-head">
+        <div><span class="eyebrow">DESCUBRE TU ESTILO</span><h2>Nuestras categorías</h2></div>
+        <p>Una selección visual construida con producto real de la tienda.</p>
+      </div>
+      <div class="category-grid">
+        <article class="category-card" data-filter="tenis"><img src="assets/shoe-black.jpg" alt="Tenis"><div><span>01</span><h3>Tenis</h3><button>Ver colección →</button></div></article>
+        <article class="category-card" data-filter="gorras"><img src="assets/caps-red.jpg" alt="Gorras"><div><span>02</span><h3>Gorras</h3><button>Ver colección →</button></div></article>
+        <article class="category-card" data-filter="playeras"><img src="assets/shirt-boss-1.jpg" alt="Playeras"><div><span>03</span><h3>Playeras</h3><button>Ver colección →</button></div></article>
+        <article class="category-card" data-filter="accesorios"><img src="assets/belt-red.jpg" alt="Accesorios"><div><span>04</span><h3>Accesorios</h3><button>Ver colección →</button></div></article>
+      </div>
+    </section>
+
+    <section class="section products-section" id="productos">
+      <div class="section-head split">
+        <div><span class="eyebrow">NUEVO EN BC</span><h2>Selección destacada</h2></div>
+        <div class="filters" id="filters">
+          <button class="active" data-filter="all">Todo</button>
+          <button data-filter="tenis">Tenis</button>
+          <button data-filter="playeras">Playeras</button>
+          <button data-filter="gorras">Gorras</button>
+          <button data-filter="accesorios">Accesorios</button>
+        </div>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="promo" id="promo">
+      <img src="assets/shoe-black.jpg" alt="Tenis negros" class="promo-img left" />
+      <div class="promo-copy">
+        <span class="eyebrow">PROMO EN TIENDA</span>
+        <p>1 par de tenis por</p>
+        <strong>$1,500</strong>
+        <h2>+ playera y cinto de regalo</h2>
+        <a href="https://wa.me/526862271780?text=Hola%20BC%20Boutiquecuen,%20quiero%20información%20de%20la%20promoción%20de%20tenis" target="_blank" rel="noreferrer" class="btn primary">Preguntar disponibilidad</a>
+      </div>
+      <img src="assets/shirt-boss-1.jpg" alt="Playera" class="promo-img right" />
+    </section>
+
+    <section class="editorial section">
+      <div class="editorial-copy"><span class="eyebrow">BC STREET EDIT</span><h2>Más que ropa,<br>un estilo de vida.</h2><p>Negro, textura, detalles y piezas que hacen que un outfit simple se vea completo.</p><a href="#contacto" class="text-link">Visítanos →</a></div>
+      <div class="editorial-gallery">
+        <img src="assets/caps-cross.jpg" alt="Gorras BC" />
+        <img src="assets/shirt-cross.jpg" alt="Playera premium" />
+        <img src="assets/shoe-white.jpg" alt="Tenis blancos" />
+      </div>
+    </section>
+
+    <section class="contact section" id="contacto">
+      <div><span class="eyebrow">VISÍTANOS</span><h2>BC Boutiquecuen</h2><p>Consulta existencias, tallas y modelos directamente por WhatsApp.</p></div>
+      <div class="contact-cards">
+        <a href="https://www.google.com/maps/search/?api=1&query=BC+Boutiquecuen+Mexicali" target="_blank" rel="noreferrer"><span>⌖</span><div><b>Google Maps</b><small>BC Boutiquecuen</small></div></a>
+        <a href="tel:+526866340753"><span>☎</span><div><b>Teléfono fijo</b><small>686 634 0753</small></div></a>
+        <a href="https://wa.me/526862271780" target="_blank" rel="noreferrer"><span>◉</span><div><b>WhatsApp</b><small>686 227 1780</small></div></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="assets/logo.jpg" alt="BC Boutiquecuen" />
+    <p>Moda • Calidad • Actitud</p>
+    <span>© 2026 BC Boutiquecuen</span>
+  </footer>
+
+  <div class="product-modal" id="productModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-panel">
+      <button class="modal-close" data-close aria-label="Cerrar">×</button>
+      <img id="modalImg" src="" alt="Producto" />
+      <div class="modal-info"><span class="eyebrow" id="modalCategory"></span><h3 id="modalName"></h3><p>Consulta talla, precio y disponibilidad en tienda.</p><a id="modalWhatsapp" class="btn primary" href="#" target="_blank" rel="noreferrer">Pedir por WhatsApp</a></div>
+    </div>
+  </div>
+
+  <a class="floating-wa" href="https://wa.me/526862271780" target="_blank" rel="noreferrer" aria-label="WhatsApp">WA</a>
+  <script src="app.js"></script>
+</body>
+</html>
